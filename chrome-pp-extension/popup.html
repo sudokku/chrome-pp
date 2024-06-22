@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Video Player Event Listener</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <h1>Party Player</h1>
+        <div class="init">
+            <img src="assets/loading.gif" alt="Loading...">
+            <p class="available-video"></p>
+            <button id="start" disabled>Start a Party</button>
+            <br>
+            <input type="text" class="room-id">
+            <button id="join">Join a Party</button>
+        </div>
+        <div class="active-party hidden">
+            <p class="active-video"></p>
+            <p class="party-code"></p>
+            <button id="exit">Exit party</button>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
